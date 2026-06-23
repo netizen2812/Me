@@ -246,10 +246,16 @@ export default function Home() {
                   </div>
 
                   {/* Step 4 */}
-                  <div className="w-[55%] mx-auto flex items-center justify-between px-6 py-4 border border-emerald-900/30 bg-emerald-950/5 rounded-lg hover:border-emerald-800/40 transition-colors duration-200 group">
-                    <span className="text-[10px] font-mono uppercase tracking-wider text-emerald-500/80">04 // Deployed</span>
-                    <div className="flex-1 mx-6 border-t border-dashed border-emerald-900/20"></div>
-                    <span className="text-xl font-extrabold text-emerald-400 tracking-tight font-sans group-hover:text-emerald-300 transition-colors">1</span>
+                  <div className="w-[55%] mx-auto flex items-center justify-between px-6 py-4 border border-emerald-500/30 bg-gradient-to-b from-emerald-950/20 to-emerald-950/40 rounded-lg hover:border-emerald-400/40 transition-all duration-300 shadow-[0_0_25px_rgba(16,185,129,0.08)] group scale-[1.02]">
+                    <span className="text-[10px] font-mono uppercase tracking-wider text-emerald-400 flex items-center gap-2">
+                      <span className="relative flex h-1.5 w-1.5">
+                        <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+                        <span className="relative inline-flex rounded-full h-1.5 w-1.5 bg-emerald-500"></span>
+                      </span>
+                      04 // Deployed
+                    </span>
+                    <div className="flex-1 mx-6 border-t border-dashed border-emerald-500/20"></div>
+                    <span className="text-xl font-black text-emerald-400 tracking-tight font-sans group-hover:text-emerald-300 transition-colors">1</span>
                   </div>
                 </div>
 
