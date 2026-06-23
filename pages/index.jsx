@@ -319,7 +319,7 @@ export default function Home() {
                       Vertical Quick-Commerce in India’s $33B Baby Care Market
                     </h3>
                     <p className="text-sm text-zinc-300 leading-relaxed font-sans border-l-2 border-zinc-800 pl-4 italic">
-                      &quot;Evaluated, led diligence, and successfully pitched a $3M seed-stage investment proposal to the Investment Committee in January 2025. The thesis demonstrates why category-focused quick-commerce models targeting premium urban parents represent a high-margin opportunity.&quot;
+                      &quot;Evaluated, led diligence, and successfully pitched a ₹9 Cr pre-seed round to the Investment Committee in January 2025. The thesis demonstrates why category-focused quick-commerce models targeting premium urban parents represent a high-margin opportunity.&quot;
                     </p>
                   </div>
 
