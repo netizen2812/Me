@@ -264,31 +264,31 @@ export default function Home() {
                   {/* 3-Column Minimalist Grid Layout */}
                   <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                     <div className="space-y-2">
-                      <h4 className="text-xs font-mono uppercase tracking-wider text-white flex items-center gap-2">
-                        <span className="h-1.5 w-1.5 rounded-full bg-red-500/60 animate-pulse"></span>
+                      <h4 className="text-sm font-mono uppercase tracking-wider text-white flex items-center gap-2 font-semibold">
+                        <span className="h-1.5 w-1.5 rounded-full bg-red-500/80 animate-pulse"></span>
                         THE Services business TRAP
                       </h4>
-                      <p className="text-xs text-zinc-400 leading-relaxed font-sans">
+                      <p className="text-sm text-zinc-300 leading-relaxed font-sans">
                         Focus on the immediate elimination of disguised IT services, localized consulting, or agency models. While these may constitute viable cash-flow businesses, they fail to represent venture-scale, non-linear investments.
                       </p>
                     </div>
 
                     <div className="space-y-2">
-                      <h4 className="text-xs font-mono uppercase tracking-wider text-white flex items-center gap-2">
-                        <span className="h-1.5 w-1.5 rounded-full bg-red-500/60 animate-pulse"></span>
+                      <h4 className="text-sm font-mono uppercase tracking-wider text-white flex items-center gap-2 font-semibold">
+                        <span className="h-1.5 w-1.5 rounded-full bg-red-500/80 animate-pulse"></span>
                         THE B2C BRAND TEST
                       </h4>
-                      <p className="text-xs text-zinc-400 leading-relaxed font-sans">
+                      <p className="text-sm text-zinc-300 leading-relaxed font-sans">
                         Focus on the disqualification of B2C product businesses lacking a visceral, highly differentiated narrative or design sense or native loops capable of driving organic distribution.
                       </p>
                     </div>
 
                     <div className="space-y-2">
-                      <h4 className="text-xs font-mono uppercase tracking-wider text-white flex items-center gap-2">
-                        <span className="h-1.5 w-1.5 rounded-full bg-red-500/60 animate-pulse"></span>
+                      <h4 className="text-sm font-mono uppercase tracking-wider text-white flex items-center gap-2 font-semibold">
+                        <span className="h-1.5 w-1.5 rounded-full bg-red-500/80 animate-pulse"></span>
                         MOAT DEGRADATION
                       </h4>
-                      <p className="text-xs text-zinc-400 leading-relaxed font-sans">
+                      <p className="text-sm text-zinc-300 leading-relaxed font-sans">
                         Focus on the rejection of low-defensibility layers reliant purely on execution speed or transient first-mover advantages rather than any structural moats.
                       </p>
                     </div>
@@ -342,21 +342,21 @@ export default function Home() {
                         <div className="p-5 bg-zinc-950/10 border-t border-zinc-900 text-base text-zinc-400 space-y-6 leading-relaxed font-sans">
                           <div className="grid md:grid-cols-2 gap-6">
                             <div className="space-y-2">
-                              <h4 className="text-xs font-mono uppercase tracking-wider text-white">Horizontal Q-Commerce vs. Specialized Vertical</h4>
+                              <h4 className="text-sm font-mono uppercase tracking-wider text-white">Horizontal Q-Commerce vs. Specialized Vertical</h4>
                               <p>
                                 Legacy parenting marketplaces rely on broad SKU variety but suffer from same-day or multi-day delivery latency, failing to address immediate, urgent parental needs. Conversely, generic horizontal quick-commerce players fail to offer the specialized SKU density (prenatal and developmental products) or the lifecycle-based curation essential for parental decision-making.
                               </p>
                             </div>
                             <div className="space-y-2">
-                              <h4 className="text-xs font-mono uppercase tracking-wider text-white">The Dual-Income Imperative</h4>
+                              <h4 className="text-sm font-mono uppercase tracking-wider text-white">The Dual-Income Imperative</h4>
                               <p>
                                 Rising dual-income households in urban centers create intense time scarcity. Parents increasingly delegate convenience to digital platforms. This convenience-driven shift is reflected in a 34% year-over-year increase in digital childcare purchases, elevating quick delivery from a luxury to a baseline expectation.
                               </p>
                             </div>
                           </div>
-                          <div className="space-y-2 border-t border-zinc-900/60 pt-4">
-                            <h4 className="text-xs font-mono uppercase tracking-wider text-white">Behavioral Shift: Quality Over Legacy Brands</h4>
-                            <p>
+                          <div className="space-y-2 border border-emerald-500/20 bg-emerald-950/5 p-4 rounded-md shadow-[0_0_15px_rgba(16,185,129,0.02)]">
+                            <h4 className="text-sm font-mono uppercase tracking-wider text-emerald-400 font-semibold">Core Thesis: Private Label Margin Play</h4>
+                            <p className="text-zinc-300">
                               Modern urban parents display a strong brand-agnostic mindset, prioritizing product safety, certified ingredients, and functionality over legacy brand recall. This provides a high-margin opportunity for private labels, which can capture trust through direct quality assurances and earn higher margins (e.g., benchmarked by FirstCry scaling private labels to approximately 65% of overall revenues).
                             </p>
                           </div>
@@ -495,7 +495,7 @@ export default function Home() {
                             * Note: Triangulating bottom-up and top-down models yields a coherent addressable TAM range between ₹76k Cr and ₹81k Cr, ensuring robust margins.
                           </p>
                           <div className="pt-4 border-t border-zinc-900/60 space-y-3 font-sans text-base text-zinc-400">
-                            <h4 className="text-xs font-mono uppercase tracking-wider text-white">Exit Scenario & Valuation Benchmarking</h4>
+                            <h4 className="text-sm font-mono uppercase tracking-wider text-white">Exit Scenario & Valuation Benchmarking</h4>
                             <p>
                               Vetted against late-stage peer multiples: FirstCry (8.0x EV/Rev), SuperBottoms (6.5x EV/Rev), and Zepto (5.5x EV/Rev). At a conservative <strong>7.0x EV/Revenue exit multiple</strong>, a specialized vertical platform is projected to reach a ₹17,258 Cr valuation by 2032 (requiring a ₹2,465 Cr ARR run-rate). This yields a projected <strong>71.0x MoIC return</strong> on initial capital over a 7-year investment horizon.
                             </p>
@@ -520,13 +520,13 @@ export default function Home() {
                         <div className="p-5 bg-zinc-950/10 border-t border-zinc-900 text-base text-zinc-400 space-y-6 leading-relaxed font-sans">
                           <div className="grid md:grid-cols-2 gap-6">
                             <div className="space-y-2">
-                              <h4 className="text-xs font-mono uppercase tracking-wider text-white">The Incumbent Flaw</h4>
+                              <h4 className="text-sm font-mono uppercase tracking-wider text-white">The Incumbent Flaw</h4>
                               <p>
                                 Legacy category players (e.g. FirstCry) operate slow logistics pipelines optimized for central warehouse distribution and offline franchise setups. Because franchise models have heavy fixed sunk costs, they cannot easily retrofit their networks into localized, high-frequency dark stores delivering in 30–60 minutes, leaving a high-trust convenience white space.
                               </p>
                             </div>
                             <div className="space-y-2">
-                              <h4 className="text-xs font-mono uppercase tracking-wider text-white">The Margin Disruption Moat</h4>
+                              <h4 className="text-sm font-mono uppercase tracking-wider text-white">The Margin Disruption Moat</h4>
                               <p>
                                 Traditional grocery quick commerce is structurally constrained by compressed ~5% contribution margins due to thin commodity prices and high perishability. In contrast, vertical platforms in this category can operate on a **22–30% blended gross margin** by driving high-AOV orders (~₹1,200) focused on essentials, clothing, and toys, enhanced by high-margin private labels.
                               </p>
@@ -552,13 +552,13 @@ export default function Home() {
                         <div className="p-5 bg-zinc-950/10 border-t border-zinc-900 text-base text-zinc-400 space-y-6 leading-relaxed font-sans">
                           <div className="grid md:grid-cols-2 gap-6">
                             <div className="space-y-2">
-                              <h4 className="text-xs font-mono uppercase tracking-wider text-white">Founder-Market Fit Scorecard</h4>
+                              <h4 className="text-sm font-mono uppercase tracking-wider text-white">Founder-Market Fit Scorecard</h4>
                               <p>
                                 The CEO possesses an elite pedigree (Stanford MBA), combined with a successful consumer exit to a food-delivery unicorn (Zomato) where they managed post-acquisition operations scaling from 0 to over 150 million transactions. This operational maturity mitigates execution risk at the zero-to-one phase.
                               </p>
                             </div>
                             <div className="space-y-2">
-                              <h4 className="text-xs font-mono uppercase tracking-wider text-white">The Weaponized Execution Bench</h4>
+                              <h4 className="text-sm font-mono uppercase tracking-wider text-white">The Weaponized Execution Bench</h4>
                               <p>
                                 Risk mitigators include hiring senior leadership directly from category giants: Operations is headed by a former Dark Store Expansion lead from Blinkit, Growth is led by a former Category Director from Swiggy, and Product/Design is led by a veteran Kidswear designer from Reliance Retail.
                               </p>
@@ -566,13 +566,13 @@ export default function Home() {
                           </div>
                           <div className="grid md:grid-cols-2 gap-6 border-t border-zinc-900/60 pt-4 mt-4">
                             <div className="space-y-2">
-                              <h4 className="text-xs font-mono uppercase tracking-wider text-white">Expert & Customer Vetting</h4>
+                              <h4 className="text-sm font-mono uppercase tracking-wider text-white">Expert & Customer Vetting</h4>
                               <p>
                                 Validated via expert call with Biju Kurien (former President of Reliance Retail / CEO of Titan) confirming the recurring, need-driven category mechanics. Customer references in Delhi NCR confirm high order frequency (2-3x weekly) and strong organic NPS.
                               </p>
                             </div>
                             <div className="space-y-2">
-                              <h4 className="text-xs font-mono uppercase tracking-wider text-white">Vetted Risk Disclosures</h4>
+                              <h4 className="text-sm font-mono uppercase tracking-wider text-white">Vetted Risk Disclosures</h4>
                               <ul className="list-disc pl-4 space-y-1 text-xs text-zinc-500 font-sans">
                                 <li><strong>Pre-Scale Maturity</strong>: Limited historical cohort data for early web/mobile builds.</li>
                                 <li><strong>Execution Complexity</strong>: Operational reliance on dark stores, inventory turns, and kidswear returns.</li>
@@ -623,21 +623,21 @@ export default function Home() {
                         <div className="p-5 bg-zinc-950/10 border-t border-zinc-900 text-base text-zinc-400 space-y-6 leading-relaxed font-sans">
                           <div className="grid md:grid-cols-2 gap-6">
                             <div className="space-y-2">
-                              <h4 className="text-xs font-mono uppercase tracking-wider text-white">Full-Electric Autonomy Core</h4>
+                              <h4 className="text-sm font-mono uppercase tracking-wider text-white">Full-Electric Autonomy Core</h4>
                               <p>
                                 The startup is developing a full-stack, all-electric autonomous navigation system (targeting Level 4-5 autonomy) for marine vessels. The technology utilizes a proprietary sensor array and AI vision pilot software designed to run on bespoke electric passenger boats or as a retrofit suite.
                               </p>
                             </div>
                             <div className="space-y-2">
-                              <h4 className="text-xs font-mono uppercase tracking-wider text-white">Target Segments & Exit Rationale</h4>
+                              <h4 className="text-sm font-mono uppercase tracking-wider text-white">Target Segments & Exit Rationale</h4>
                               <p>
                                 The company&apos;s product was much better fitted for high-value commercial logistics and defense applications, where autonomous routing and safety are critical. However, they instead chose to target leisure and local tourism boat operators (lakes, reservoirs, coastal cruise charters) for their initial go-to-market. This mismatch between product capabilities and target sector created a massive commercial ROI gap.
                               </p>
                             </div>
                           </div>
-                          <div className="space-y-2 border-t border-zinc-900/60 pt-4">
-                            <h4 className="text-xs font-mono uppercase tracking-wider text-white">Why We Passed: Tech & Segment Misalignment</h4>
-                            <p>
+                          <div className="space-y-2 border border-amber-500/20 bg-amber-950/5 p-4 rounded-md shadow-[0_0_15px_rgba(245,158,11,0.02)]">
+                            <h4 className="text-sm font-mono uppercase tracking-wider text-amber-400 font-semibold">Why We Passed: Tech & Segment Misalignment</h4>
+                            <p className="text-zinc-300">
                               While the engineering of the autonomous pilot is advanced, the autopilot lacks sea-level validation data in dense harbors, fog, and bad weather. Additionally, prioritizing low-margin leisure boating instead of high-margin commercial logistics and defense led us to pass on the opportunity prior to IC submission.
                             </p>
                           </div>
@@ -661,13 +661,13 @@ export default function Home() {
                         <div className="p-5 bg-zinc-950/10 border-t border-zinc-900 text-base text-zinc-400 space-y-4 leading-relaxed font-sans">
                           <div className="grid md:grid-cols-2 gap-6">
                             <div className="space-y-2">
-                              <h4 className="text-xs font-mono uppercase tracking-wider text-white">The Capex Amortization Barrier</h4>
+                              <h4 className="text-sm font-mono uppercase tracking-wider text-white">The Capex Amortization Barrier</h4>
                               <p>
                                 An autonomous electric vessel carries a capital expense of ₹24–25 Lakhs, compared to just ₹3 Lakhs for a traditional internal combustion boat—representing an 8.3x capex premium. Because pilot/driver salaries for leisure/local tourism operators are extremely low (typically ₹10k–15k/month), removing the driver does not yield enough operational savings to amortize the ₹21 Lakh premium over any reasonable time horizon.
                               </p>
                             </div>
                             <div className="space-y-2">
-                              <h4 className="text-xs font-mono uppercase tracking-wider text-white">Low Collision & Density Pain Points</h4>
+                              <h4 className="text-sm font-mono uppercase tracking-wider text-white">Low Collision & Density Pain Points</h4>
                               <p>
                                 Unlike urban road density, open water has low vessel density and low collision frequency. Thus, autonomous safety systems do not represent an urgent pain point for leisure or shipping operators that would justify this capex premium. Market segments follow a clear viability hierarchy: Logistics &gt; Defense &gt; Leisure/Tourism.
                               </p>
@@ -744,13 +744,13 @@ export default function Home() {
                         <div className="p-5 bg-zinc-950/10 border-t border-zinc-900 text-base text-zinc-400 space-y-6 leading-relaxed font-sans">
                           <div className="grid md:grid-cols-2 gap-6">
                             <div className="space-y-2">
-                              <h4 className="text-xs font-mono uppercase tracking-wider text-white">Team Business Acumen Scorecard</h4>
+                              <h4 className="text-sm font-mono uppercase tracking-wider text-white">Team Business Acumen Scorecard</h4>
                               <p>
                                 The founders possess strong engineering and technical design capability but lacked business sense and commercial acumen. Their strategy to sell an ₹25L autonomous system to leisure operators—where pilot labor costs are negligible—showed a fundamental lack of economic reality. Additionally, they planned to launch in GCC, India, and the USA simultaneously with single-digit sales projections, demonstrating high geographic dilution.
                               </p>
                             </div>
                             <div className="space-y-2">
-                              <h4 className="text-xs font-mono uppercase tracking-wider text-white">Vetted Risk Disclosures Summary</h4>
+                              <h4 className="text-sm font-mono uppercase tracking-wider text-white">Vetted Risk Disclosures Summary</h4>
                               <ul className="list-disc pl-4 space-y-1 text-xs text-zinc-500 font-sans">
                                 <li><strong>Capex Amortization Gap</strong>: Leisure boat buyers cannot justify or amortize a ₹25 Lakh price tag due to negligible labor offsets.</li>
                                 <li><strong>Pre-Scale Autonomy Validation</strong>: Unproven ocean autopilot navigation in dense shipping corridors.</li>
@@ -801,21 +801,21 @@ export default function Home() {
                         <div className="p-5 bg-zinc-950/10 border-t border-zinc-900 text-base text-zinc-400 space-y-6 leading-relaxed font-sans">
                           <div className="grid md:grid-cols-2 gap-6">
                             <div className="space-y-2">
-                              <h4 className="text-xs font-mono uppercase tracking-wider text-white">Agentic Code Generation Core</h4>
+                              <h4 className="text-sm font-mono uppercase tracking-wider text-white">Agentic Code Generation Core</h4>
                               <p>
                                 The startup is building an autonomous AI software engineering platform. The system orchestrates multiple AI agents to write, test, and deploy production-grade software applications from natural language specifications, aiming to automate complex developer workflows.
                               </p>
                             </div>
                             <div className="space-y-2">
-                              <h4 className="text-xs font-mono uppercase tracking-wider text-white">Target Segments & Exit Rationale</h4>
+                              <h4 className="text-sm font-mono uppercase tracking-wider text-white">Target Segments & Exit Rationale</h4>
                               <p>
                                 The company targets enterprise application developers and software teams, positioning itself as a platform for rapid software development. While the founders demonstrated good business judgment and a well-built product, we passed prior to IC because the core value proposition remains a high-risk target feature for platform giants.
                               </p>
                             </div>
                           </div>
-                          <div className="space-y-2 border-t border-zinc-900/60 pt-4">
-                            <h4 className="text-xs font-mono uppercase tracking-wider text-white">Why We Passed: The Incumbency Trap</h4>
-                            <p>
+                          <div className="space-y-2 border border-amber-500/20 bg-amber-950/5 p-4 rounded-md shadow-[0_0_15px_rgba(245,158,11,0.02)]">
+                            <h4 className="text-sm font-mono uppercase tracking-wider text-amber-400 font-semibold">Why We Passed: The Incumbency Trap</h4>
+                            <p className="text-zinc-300">
                               We do not believe emerging startups in this vertical can outperform LLM platform giants (Google, OpenAI, Anthropic) on their own playing field. Standalone UI wrappers and prompting environments are highly vulnerable; what constitutes a company-defining product for a startup is often just a minor native feature flag for a model provider.
                             </p>
                           </div>
@@ -840,13 +840,13 @@ export default function Home() {
                           <div className="grid md:grid-cols-2 gap-6">
                             <div className="space-y-4">
                               <div className="space-y-1">
-                                <h4 className="text-xs font-mono uppercase tracking-wider text-white">1. Zero-Marginal-Cost Distribution</h4>
+                                <h4 className="text-sm font-mono uppercase tracking-wider text-white">1. Zero-Marginal-Cost Distribution</h4>
                                 <p className="text-xs">
                                   Startups face steep Customer Acquisition Costs (CAC) of ~$40 per user via ad networks. Conversely, tech giants can ship the same capability natively to 2 billion active users (Google Workspace) or 400 million Copilot enterprise seats overnight by flipping a feature flag.
                                 </p>
                               </div>
                               <div className="space-y-1">
-                                <h4 className="text-xs font-mono uppercase tracking-wider text-white">2. Subsidized Compute & Margin Arbitrage</h4>
+                                <h4 className="text-sm font-mono uppercase tracking-wider text-white">2. Subsidized Compute & Margin Arbitrage</h4>
                                 <p className="text-xs">
                                   Startups pay retail API pricing, facing severe margin compression. LLM giants own the underlying models and raw compute infrastructure, allowing them to run these capabilities as free bundles or loss-leaders to keep users within their ecosystems.
                                 </p>
@@ -854,7 +854,7 @@ export default function Home() {
                             </div>
                             <div className="space-y-4">
                               <div className="space-y-1">
-                                <h4 className="text-xs font-mono uppercase tracking-wider text-white">3. The &quot;Moving Baseline&quot; Problem</h4>
+                                <h4 className="text-sm font-mono uppercase tracking-wider text-white">3. The &quot;Moving Baseline&quot; Problem</h4>
                                 <p className="text-xs">
                                   A startup&apos;s product feels revolutionary when it exposes a capability users haven&apos;t seen. However, as underlying models improve natively, wrappers lose utility. The moment platform providers release native environments (like Claude Code or Google AI Studio), the startup&apos;s middle-layer value drops to zero.
                                 </p>
@@ -945,13 +945,13 @@ export default function Home() {
                         <div className="p-5 bg-zinc-950/10 border-t border-zinc-900 text-base text-zinc-400 space-y-6 leading-relaxed font-sans">
                           <div className="grid md:grid-cols-2 gap-6">
                             <div className="space-y-2">
-                              <h4 className="text-xs font-mono uppercase tracking-wider text-white">Founder & Product Execution</h4>
+                              <h4 className="text-sm font-mono uppercase tracking-wider text-white">Founder & Product Execution</h4>
                               <p>
                                 The founders possess solid technical credentials and reasonable business sense. The product interface and core reasoning pipeline are well-built, delivering satisfactory early user feedback. The decision to pass was driven by structural platform risks rather than execution capability.
                               </p>
                             </div>
                             <div className="space-y-2">
-                              <h4 className="text-xs font-mono uppercase tracking-wider text-white">The Distribution Moat Risk</h4>
+                              <h4 className="text-sm font-mono uppercase tracking-wider text-white">The Distribution Moat Risk</h4>
                               <p>
                                 Rather, the structural lack of distribution channels, retail API dependency on platform giants, and baseline model updates make it impossible for a standalone wrapper to sustain a long-term defensible moat in an extremely capital-intensive market.
                               </p>
@@ -1000,21 +1000,21 @@ export default function Home() {
                         <div className="p-5 bg-zinc-950/10 border-t border-zinc-900 text-base text-zinc-400 space-y-6 leading-relaxed font-sans">
                           <div className="grid md:grid-cols-2 gap-6">
                             <div className="space-y-2">
-                              <h4 className="text-xs font-mono uppercase tracking-wider text-white">The Retrofit Hybrid Solution</h4>
+                              <h4 className="text-sm font-mono uppercase tracking-wider text-white">The Retrofit Hybrid Solution</h4>
                               <p>
                                 The company develops a hybrid retrofit powertrain system designed to transition internal combustion diesel Light Commercial Vehicles (LCVs) into petrol-electric hybrids, bridging the gap between traditional powertrains and fully electric options.
                               </p>
                             </div>
                             <div className="space-y-2">
-                              <h4 className="text-xs font-mono uppercase tracking-wider text-white">Target Markets & Segment Strategy</h4>
+                              <h4 className="text-sm font-mono uppercase tracking-wider text-white">Target Markets & Segment Strategy</h4>
                               <p>
                                 The startup&apos;s go-to-market targets commercial fleet operators and logistics companies running intra-city delivery routes, aiming to offer mileage optimization without the charging downtime associated with pure battery electric vehicles.
                               </p>
                             </div>
                           </div>
-                          <div className="space-y-2 border-t border-zinc-900/60 pt-4">
-                            <h4 className="text-xs font-mono uppercase tracking-wider text-white">Why We Passed: Good Tech for a Non-Existent Problem</h4>
-                            <p>
+                          <div className="space-y-2 border border-amber-500/20 bg-amber-950/5 p-4 rounded-md shadow-[0_0_15px_rgba(245,158,11,0.02)]">
+                            <h4 className="text-sm font-mono uppercase tracking-wider text-amber-400 font-semibold">Why We Passed: Good Tech for a Non-Existent Problem</h4>
+                            <p className="text-zinc-300">
                               While the technology is sound and the team is highly capable, the product represents a good solution to a non-existent commercial problem. The commercial transportation market is moving directly to full electrification (EVs) rather than stopping at hybrid bridge solutions, which carry heavy regulatory and economic penalties.
                             </p>
                           </div>
@@ -1038,13 +1038,13 @@ export default function Home() {
                         <div className="p-5 bg-zinc-950/10 border-t border-zinc-900 text-base text-zinc-400 space-y-4 leading-relaxed font-sans">
                           <div className="grid md:grid-cols-2 gap-6">
                             <div className="space-y-2">
-                              <h4 className="text-xs font-mono uppercase tracking-wider text-white">The Regulatory Tax Trap</h4>
+                              <h4 className="text-sm font-mono uppercase tracking-wider text-white">The Regulatory Tax Trap</h4>
                               <p>
                                 The entire Indian clean-mobility landscape is shaped far more by tax regulations than underlying technology. Hybrids in India fall under a higher tax bracket (~43%) than even many normal petrol/diesel vehicles (~38%), not just EVs (which are taxed at only 5% GST plus state incentives).
                               </p>
                             </div>
                             <div className="space-y-2">
-                              <h4 className="text-xs font-mono uppercase tracking-wider text-white">OEM Strategic Avoidance</h4>
+                              <h4 className="text-sm font-mono uppercase tracking-wider text-white">OEM Strategic Avoidance</h4>
                               <p>
                                 Because hybrids give OEMs no policy advantages or subsidy capture while adding major manufacturing and supply chain complexity, legacy players (e.g. Tata, Mahindra) are bypassing hybrid LCVs entirely in favor of direct EV development, leaving hybrid retrofits policy-isolated.
                               </p>
@@ -1070,13 +1070,13 @@ export default function Home() {
                         <div className="p-5 bg-zinc-950/10 border-t border-zinc-900 text-base text-zinc-400 space-y-4 leading-relaxed font-sans">
                           <div className="grid md:grid-cols-2 gap-6">
                             <div className="space-y-2">
-                              <h4 className="text-xs font-mono uppercase tracking-wider text-white">The Fuel Savings Equation</h4>
+                              <h4 className="text-sm font-mono uppercase tracking-wider text-white">The Fuel Savings Equation</h4>
                               <p>
                                 On the consumer side, commercial EVs deliver 70–80% fuel cost savings, which is the primary driver of fleet adoption. Hybrids offer only a marginal ~15% improvement in mileage.
                               </p>
                             </div>
                             <div className="space-y-2">
-                              <h4 className="text-xs font-mono uppercase tracking-wider text-white">Neutralization of Savings</h4>
+                              <h4 className="text-sm font-mono uppercase tracking-wider text-white">Neutralization of Savings</h4>
                               <p>
                                 Any operational savings the hybrid powertrain generates are completely neutralized for the operator by:
                               </p>
@@ -1107,13 +1107,13 @@ export default function Home() {
                         <div className="p-5 bg-zinc-950/10 border-t border-zinc-900 text-base text-zinc-400 space-y-6 leading-relaxed font-sans">
                           <div className="grid md:grid-cols-2 gap-6">
                             <div className="space-y-2">
-                              <h4 className="text-xs font-mono uppercase tracking-wider text-white">Team Technical Capabilities</h4>
+                              <h4 className="text-sm font-mono uppercase tracking-wider text-white">Team Technical Capabilities</h4>
                               <p>
                                 The founders are technically excellent engineers who have successfully built a good, high-functioning hybrid powertrain system. However, their bridge-technology strategy faces severe external headwinds. Building a hybrid powertrain in a market dominated by strong EV tax incentives and 80% fuel cost savings creates a difficult path to commercial viability, despite their strong technical execution.
                               </p>
                             </div>
                             <div className="space-y-2">
-                              <h4 className="text-xs font-mono uppercase tracking-wider text-white">Vetted Risk Disclosures Summary</h4>
+                              <h4 className="text-sm font-mono uppercase tracking-wider text-white">Vetted Risk Disclosures Summary</h4>
                               <ul className="list-disc pl-4 space-y-1 text-xs text-zinc-500 font-sans">
                                 <li><strong>Tax Disadvantage:</strong> A 43% GST tax bracket makes hybrids unviable compared to 5% GST for EVs.</li>
                                 <li><strong>Dual Powertrain Overhead:</strong> Doubling complex moving parts increases maintenance costs and potential downtime.</li>
