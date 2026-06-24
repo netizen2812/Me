@@ -1184,6 +1184,68 @@ export default function Home() {
 
               </section>
 
+              {/* SECTION 4: CORPORATE FINANCE & VALUATION STUDIES */}
+              <section id="valuation" className="scroll-mt-24 space-y-8 animate-fade-in-up delay-600">
+                <div className="space-y-2">
+                  <h2 className="text-xs font-mono uppercase tracking-wider text-zinc-500">SECTION 04 // CORPORATE FINANCE & VALUATION STUDIES</h2>
+                  <h3 className="text-2xl font-bold tracking-tight bg-gradient-to-r from-white to-zinc-400 bg-clip-text text-transparent font-sans">Corporate Finance & Valuation Studies</h3>
+                  <p className="text-sm text-zinc-400 font-sans leading-relaxed">
+                    Applying institutional investment frameworks across public and private markets through acquisition analysis, valuation, and strategic diligence.
+                  </p>
+                </div>
+
+                {/* Marquee M&A Block */}
+                <div className="border border-zinc-900 bg-gradient-to-b from-zinc-900/50 via-zinc-950/60 to-zinc-950/80 hover:border-zinc-800 transition-all duration-300 rounded-lg p-6 shadow-xl shadow-black/40">
+                  <div className="flex flex-col md:flex-row gap-8 items-center">
+                    {/* Left: Content */}
+                    <div className="flex-1 space-y-4">
+                      <div className="space-y-1.5">
+                        <span className="text-xs font-mono uppercase tracking-wider text-zinc-500">ACQUISITION ASSESSMENT</span>
+                        <h4 className="text-xl font-bold text-white font-sans">
+                          SUN PHARMA × ORGANON
+                        </h4>
+                        <p className="text-xs font-mono text-zinc-400 uppercase tracking-wider">
+                          INDEPENDENT M&A MODEL & PITCH
+                        </p>
+                      </div>
+                      <p className="text-base text-zinc-300 leading-relaxed font-sans">
+                        Built an independent acquisition assessment of Sun Pharma&apos;s proposed $11.75B acquisition of Organon, including strategic rationale, valuation, accretion/dilution impact, synergy realization, and transaction economics.
+                      </p>
+                      <div className="flex flex-wrap gap-3 pt-2">
+                        <a 
+                          href="/Sun_Pharma_Organon.pdf" 
+                          target="_blank" 
+                          rel="noopener noreferrer"
+                          className="inline-flex items-center gap-2 bg-white hover:bg-zinc-200 text-black font-mono text-xs font-bold px-4 py-2.5 rounded transition-colors duration-200"
+                        >
+                          DOWNLOAD PITCH DECK
+                          <ExternalLink className="h-3 w-3" />
+                        </a>
+                        <a 
+                          href="/Organon_SunPharma.xlsx" 
+                          target="_blank" 
+                          rel="noopener noreferrer"
+                          className="inline-flex items-center gap-2 border border-zinc-800 bg-zinc-950 hover:bg-zinc-900/60 text-zinc-300 hover:text-white font-mono text-xs font-bold px-4 py-2.5 rounded transition-colors duration-200"
+                        >
+                          DOWNLOAD EXCEL MODEL
+                          <ExternalLink className="h-3 w-3" />
+                        </a>
+                      </div>
+                    </div>
+                    {/* Right: Cover Image */}
+                    <div className="w-full md:w-56 shrink-0 flex justify-center">
+                      <div className="relative border border-zinc-800 rounded overflow-hidden shadow-2xl shadow-black/80 max-w-[180px] md:max-w-none">
+                        <img 
+                          src="/sun_pharma_cover.png" 
+                          alt="Sun Pharma x Organon M&A Assessment Cover" 
+                          className="object-cover w-full h-auto max-h-[260px] hover:scale-105 transition-transform duration-300"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
             </div>
           </div>
         </div>

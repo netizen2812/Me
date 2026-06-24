@@ -1,11 +1,12 @@
 import { useState, useEffect } from 'react';
-import { User, Filter, Briefcase, BookOpen } from 'lucide-react';
+import { User, Filter, Briefcase, BookOpen, TrendingUp } from 'lucide-react';
 
 const navItems = [
   { id: 'profile', label: 'Profile Snapshot', shortLabel: 'Profile', icon: User },
   { id: 'triage', label: 'Triage Engine', shortLabel: 'Triage', icon: Filter },
   { id: 'ledger', label: 'Deal Ledger', shortLabel: 'Ledger', icon: Briefcase },
   { id: 'research', label: 'Ecosystem Research', shortLabel: 'Research', icon: BookOpen },
+  { id: 'valuation', label: 'Valuation Studies', shortLabel: 'Valuation', icon: TrendingUp },
 ];
 
 export default function SidebarNav() {
