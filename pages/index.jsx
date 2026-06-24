@@ -1218,7 +1218,7 @@ export default function Home() {
                           rel="noopener noreferrer"
                           className="inline-flex items-center gap-2 bg-white hover:bg-zinc-200 text-black font-mono text-xs font-bold px-4 py-2.5 rounded transition-colors duration-200"
                         >
-                          DOWNLOAD PITCH DECK
+                          VIEW ANALYSIS
                           <ExternalLink className="h-3 w-3" />
                         </a>
                         <a 
