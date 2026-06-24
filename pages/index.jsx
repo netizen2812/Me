@@ -165,7 +165,7 @@ export default function Home() {
                 {/* 10-Second Credential Banner */}
                 <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 border-t border-b border-zinc-900 py-6 font-mono">
                   <div className="space-y-1">
-                    <div className="text-[10px] uppercase tracking-wider text-zinc-500 flex items-center gap-1.5">
+                    <div className="text-xs uppercase tracking-wider text-zinc-500 flex items-center gap-1.5">
                       <GraduationCap className="h-3.5 w-3.5" /> ACADEMIC CORE
                     </div>
                     <div className="text-xs text-zinc-200">
@@ -175,7 +175,7 @@ export default function Home() {
                   </div>
 
                   <div className="space-y-1">
-                    <div className="text-[10px] uppercase tracking-wider text-zinc-500 flex items-center gap-1.5">
+                    <div className="text-xs uppercase tracking-wider text-zinc-500 flex items-center gap-1.5">
                       <Cpu className="h-3.5 w-3.5" /> FINANCE ALIGNMENT
                     </div>
                     <div className="text-xs text-zinc-200">
@@ -185,7 +185,7 @@ export default function Home() {
                   </div>
 
                   <div className="space-y-1">
-                    <div className="text-[10px] uppercase tracking-wider text-zinc-500 flex items-center gap-1.5">
+                    <div className="text-xs uppercase tracking-wider text-zinc-500 flex items-center gap-1.5">
                       <LineChart className="h-3.5 w-3.5" /> OPERATIONAL VELOCITY
                     </div>
                     <div className="text-xs text-zinc-200">
@@ -211,7 +211,7 @@ export default function Home() {
                 <div className="space-y-1.5 py-4">
                   {/* Step 1 */}
                   <div className="w-full mx-auto flex items-center justify-between px-6 py-4 border border-zinc-900 bg-zinc-950/40 rounded-lg hover:border-zinc-800 transition-colors duration-200">
-                    <span className="text-[10px] font-mono uppercase tracking-wider text-zinc-400">01 // Sourced</span>
+                    <span className="text-xs font-mono uppercase tracking-wider text-zinc-400">01 // Sourced</span>
                     <div className="flex-1 mx-6 border-t border-dashed border-zinc-900/60"></div>
                     <span className="text-xl font-extrabold text-white tracking-tight font-sans">100+</span>
                   </div>
@@ -223,7 +223,7 @@ export default function Home() {
 
                   {/* Step 2 */}
                   <div className="w-[85%] mx-auto flex items-center justify-between px-6 py-4 border border-zinc-900 bg-zinc-950/40 rounded-lg hover:border-zinc-800 transition-colors duration-200">
-                    <span className="text-[10px] font-mono uppercase tracking-wider text-zinc-400">02 // Deep Diligence</span>
+                    <span className="text-xs font-mono uppercase tracking-wider text-zinc-400">02 // Deep Diligence</span>
                     <div className="flex-1 mx-6 border-t border-dashed border-zinc-900/60"></div>
                     <span className="text-xl font-extrabold text-white tracking-tight font-sans">30+</span>
                   </div>
@@ -235,7 +235,7 @@ export default function Home() {
 
                   {/* Step 3 */}
                   <div className="w-[70%] mx-auto flex items-center justify-between px-6 py-4 border border-zinc-900 bg-zinc-950/40 rounded-lg hover:border-zinc-800 transition-colors duration-200">
-                    <span className="text-[10px] font-mono uppercase tracking-wider text-zinc-400">03 // IC Submission</span>
+                    <span className="text-xs font-mono uppercase tracking-wider text-zinc-400">03 // IC Submission</span>
                     <div className="flex-1 mx-6 border-t border-dashed border-zinc-900/60"></div>
                     <span className="text-xl font-extrabold text-white tracking-tight font-sans">3</span>
                   </div>
@@ -247,7 +247,7 @@ export default function Home() {
 
                   {/* Step 4 */}
                   <div className="w-[55%] mx-auto flex items-center justify-between px-6 py-4 border border-emerald-500/30 bg-gradient-to-b from-emerald-950/20 to-emerald-950/40 rounded-lg hover:border-emerald-400/40 transition-all duration-300 shadow-[0_0_25px_rgba(16,185,129,0.08)] group scale-[1.02]">
-                    <span className="text-[10px] font-mono uppercase tracking-wider text-emerald-400 flex items-center gap-2">
+                    <span className="text-xs font-mono uppercase tracking-wider text-emerald-400 flex items-center gap-2">
                       <span className="relative flex h-1.5 w-1.5">
                         <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
                         <span className="relative inline-flex rounded-full h-1.5 w-1.5 bg-emerald-500"></span>
@@ -311,7 +311,7 @@ export default function Home() {
                   {/* Case Study Header */}
                   <div className="space-y-3">
                     <div className="flex items-center gap-2">
-                      <span className="text-[10px] font-mono uppercase tracking-wider text-emerald-400 bg-emerald-950/30 px-2.5 py-1 rounded border border-emerald-900/40">
+                      <span className="text-xs font-mono uppercase tracking-wider text-emerald-400 bg-emerald-950/30 px-2.5 py-1 rounded border border-emerald-900/40">
                         CLOSED DEAL
                       </span>
                     </div>
@@ -339,7 +339,7 @@ export default function Home() {
                       </button>
                       
                       {caseStudyExpanded.thesis && (
-                        <div className="p-5 bg-zinc-950/10 border-t border-zinc-900 text-sm text-zinc-400 space-y-6 leading-relaxed font-sans">
+                        <div className="p-5 bg-zinc-950/10 border-t border-zinc-900 text-base text-zinc-400 space-y-6 leading-relaxed font-sans">
                           <div className="grid md:grid-cols-2 gap-6">
                             <div className="space-y-2">
                               <h4 className="text-xs font-mono uppercase tracking-wider text-white">Horizontal Q-Commerce vs. Specialized Vertical</h4>
@@ -379,7 +379,7 @@ export default function Home() {
                       {caseStudyExpanded.sizing && (
                         <div className="p-5 bg-zinc-950/10 border-t border-zinc-900 space-y-6">
                           {/* Toggle Sizing Model buttons */}
-                          <div className="flex border border-zinc-900 rounded p-1 max-w-xs bg-zinc-950 font-mono text-[10px]">
+                          <div className="flex border border-zinc-900 rounded p-1 max-w-xs bg-zinc-950 font-mono text-xs">
                             <button
                               onClick={() => setSizingModel('bottomUp')}
                               className={`flex-1 py-1.5 rounded transition-all duration-200 ${
@@ -494,7 +494,7 @@ export default function Home() {
                           <p className="text-xs text-zinc-500 font-mono italic">
                             * Note: Triangulating bottom-up and top-down models yields a coherent addressable TAM range between ₹76k Cr and ₹81k Cr, ensuring robust margins.
                           </p>
-                          <div className="pt-4 border-t border-zinc-900/60 space-y-3 font-sans text-sm text-zinc-400">
+                          <div className="pt-4 border-t border-zinc-900/60 space-y-3 font-sans text-base text-zinc-400">
                             <h4 className="text-xs font-mono uppercase tracking-wider text-white">Exit Scenario & Valuation Benchmarking</h4>
                             <p>
                               Vetted against late-stage peer multiples: FirstCry (8.0x EV/Rev), SuperBottoms (6.5x EV/Rev), and Zepto (5.5x EV/Rev). At a conservative <strong>7.0x EV/Revenue exit multiple</strong>, a specialized vertical platform is projected to reach a ₹17,258 Cr valuation by 2032 (requiring a ₹2,465 Cr ARR run-rate). This yields a projected <strong>71.0x MoIC return</strong> on initial capital over a 7-year investment horizon.
@@ -517,7 +517,7 @@ export default function Home() {
                       </button>
 
                       {caseStudyExpanded.competition && (
-                        <div className="p-5 bg-zinc-950/10 border-t border-zinc-900 text-sm text-zinc-400 space-y-6 leading-relaxed font-sans">
+                        <div className="p-5 bg-zinc-950/10 border-t border-zinc-900 text-base text-zinc-400 space-y-6 leading-relaxed font-sans">
                           <div className="grid md:grid-cols-2 gap-6">
                             <div className="space-y-2">
                               <h4 className="text-xs font-mono uppercase tracking-wider text-white">The Incumbent Flaw</h4>
@@ -549,7 +549,7 @@ export default function Home() {
                       </button>
 
                       {caseStudyExpanded.heuristics && (
-                        <div className="p-5 bg-zinc-950/10 border-t border-zinc-900 text-sm text-zinc-400 space-y-6 leading-relaxed font-sans">
+                        <div className="p-5 bg-zinc-950/10 border-t border-zinc-900 text-base text-zinc-400 space-y-6 leading-relaxed font-sans">
                           <div className="grid md:grid-cols-2 gap-6">
                             <div className="space-y-2">
                               <h4 className="text-xs font-mono uppercase tracking-wider text-white">Founder-Market Fit Scorecard</h4>
@@ -592,7 +592,7 @@ export default function Home() {
                   {/* Case Study Header */}
                   <div className="space-y-3">
                     <div className="flex items-center gap-2">
-                      <span className="text-[10px] font-mono uppercase tracking-wider text-amber-500 bg-amber-950/20 px-2.5 py-1 rounded border border-amber-900/40 shadow-[0_0_15px_rgba(245,158,11,0.05)]">
+                      <span className="text-xs font-mono uppercase tracking-wider text-amber-500 bg-amber-950/20 px-2.5 py-1 rounded border border-amber-900/40 shadow-[0_0_15px_rgba(245,158,11,0.05)]">
                         PASSED // SEGMENT MISALIGNMENT
                       </span>
                     </div>
@@ -620,7 +620,7 @@ export default function Home() {
                       </button>
                       
                       {tritonExpanded.thesis && (
-                        <div className="p-5 bg-zinc-950/10 border-t border-zinc-900 text-sm text-zinc-400 space-y-6 leading-relaxed font-sans">
+                        <div className="p-5 bg-zinc-950/10 border-t border-zinc-900 text-base text-zinc-400 space-y-6 leading-relaxed font-sans">
                           <div className="grid md:grid-cols-2 gap-6">
                             <div className="space-y-2">
                               <h4 className="text-xs font-mono uppercase tracking-wider text-white">Full-Electric Autonomy Core</h4>
@@ -658,7 +658,7 @@ export default function Home() {
                       </button>
 
                       {tritonExpanded.economics && (
-                        <div className="p-5 bg-zinc-950/10 border-t border-zinc-900 text-sm text-zinc-400 space-y-4 leading-relaxed font-sans">
+                        <div className="p-5 bg-zinc-950/10 border-t border-zinc-900 text-base text-zinc-400 space-y-4 leading-relaxed font-sans">
                           <div className="grid md:grid-cols-2 gap-6">
                             <div className="space-y-2">
                               <h4 className="text-xs font-mono uppercase tracking-wider text-white">The Capex Amortization Barrier</h4>
@@ -719,7 +719,7 @@ export default function Home() {
                               </tbody>
                             </table>
                           </div>
-                          <div className="pt-4 border-t border-zinc-900/60 text-sm text-zinc-400 leading-relaxed font-sans">
+                          <div className="pt-4 border-t border-zinc-900/60 text-base text-zinc-400 leading-relaxed font-sans">
                             <p>
                               Scaling to the massive commercial cargo shipping market requires competing with legacy marine and defense giants (e.g. Rolls Royce Marine, Kongsberg) that are actively developing assisted autopilot suites and possess decades of sea training data.
                             </p>
@@ -741,7 +741,7 @@ export default function Home() {
                       </button>
 
                       {tritonExpanded.heuristics && (
-                        <div className="p-5 bg-zinc-950/10 border-t border-zinc-900 text-sm text-zinc-400 space-y-6 leading-relaxed font-sans">
+                        <div className="p-5 bg-zinc-950/10 border-t border-zinc-900 text-base text-zinc-400 space-y-6 leading-relaxed font-sans">
                           <div className="grid md:grid-cols-2 gap-6">
                             <div className="space-y-2">
                               <h4 className="text-xs font-mono uppercase tracking-wider text-white">Team Business Acumen Scorecard</h4>
@@ -770,7 +770,7 @@ export default function Home() {
                   {/* Case Study Header */}
                   <div className="space-y-3">
                     <div className="flex items-center gap-2">
-                      <span className="text-[10px] font-mono uppercase tracking-wider text-amber-500 bg-amber-950/20 px-2.5 py-1 rounded border border-amber-900/40 shadow-[0_0_15px_rgba(245,158,11,0.05)]">
+                      <span className="text-xs font-mono uppercase tracking-wider text-amber-500 bg-amber-950/20 px-2.5 py-1 rounded border border-amber-900/40 shadow-[0_0_15px_rgba(245,158,11,0.05)]">
                         PASSED // THE INCUMBENCY TRAP
                       </span>
                     </div>
@@ -798,7 +798,7 @@ export default function Home() {
                       </button>
                       
                       {devToolingExpanded.thesis && (
-                        <div className="p-5 bg-zinc-950/10 border-t border-zinc-900 text-sm text-zinc-400 space-y-6 leading-relaxed font-sans">
+                        <div className="p-5 bg-zinc-950/10 border-t border-zinc-900 text-base text-zinc-400 space-y-6 leading-relaxed font-sans">
                           <div className="grid md:grid-cols-2 gap-6">
                             <div className="space-y-2">
                               <h4 className="text-xs font-mono uppercase tracking-wider text-white">Agentic Code Generation Core</h4>
@@ -836,7 +836,7 @@ export default function Home() {
                       </button>
 
                       {devToolingExpanded.economics && (
-                        <div className="p-5 bg-zinc-950/10 border-t border-zinc-900 text-sm text-zinc-400 space-y-4 leading-relaxed font-sans">
+                        <div className="p-5 bg-zinc-950/10 border-t border-zinc-900 text-base text-zinc-400 space-y-4 leading-relaxed font-sans">
                           <div className="grid md:grid-cols-2 gap-6">
                             <div className="space-y-4">
                               <div className="space-y-1">
@@ -878,7 +878,7 @@ export default function Home() {
                       </button>
 
                       {devToolingExpanded.competition && (
-                        <div className="p-5 bg-zinc-950/10 border-t border-zinc-900 text-sm text-zinc-400 space-y-4 leading-relaxed font-sans">
+                        <div className="p-5 bg-zinc-950/10 border-t border-zinc-900 text-base text-zinc-400 space-y-4 leading-relaxed font-sans">
                           <div className="overflow-x-auto">
                             <table className="w-full text-left font-mono text-xs border-collapse">
                               <thead>
@@ -942,7 +942,7 @@ export default function Home() {
                       </button>
 
                       {devToolingExpanded.heuristics && (
-                        <div className="p-5 bg-zinc-950/10 border-t border-zinc-900 text-sm text-zinc-400 space-y-6 leading-relaxed font-sans">
+                        <div className="p-5 bg-zinc-950/10 border-t border-zinc-900 text-base text-zinc-400 space-y-6 leading-relaxed font-sans">
                           <div className="grid md:grid-cols-2 gap-6">
                             <div className="space-y-2">
                               <h4 className="text-xs font-mono uppercase tracking-wider text-white">Founder & Product Execution</h4>
@@ -969,7 +969,7 @@ export default function Home() {
                   {/* Case Study Header */}
                   <div className="space-y-3">
                     <div className="flex items-center gap-2">
-                      <span className="text-[10px] font-mono uppercase tracking-wider text-amber-500 bg-amber-950/20 px-2.5 py-1 rounded border border-amber-900/40 shadow-[0_0_15px_rgba(245,158,11,0.05)]">
+                      <span className="text-xs font-mono uppercase tracking-wider text-amber-500 bg-amber-950/20 px-2.5 py-1 rounded border border-amber-900/40 shadow-[0_0_15px_rgba(245,158,11,0.05)]">
                         PASSED // POLICY & EV HEADWINDS
                       </span>
                     </div>
@@ -997,7 +997,7 @@ export default function Home() {
                       </button>
                       
                       {hybridExpanded.thesis && (
-                        <div className="p-5 bg-zinc-950/10 border-t border-zinc-900 text-sm text-zinc-400 space-y-6 leading-relaxed font-sans">
+                        <div className="p-5 bg-zinc-950/10 border-t border-zinc-900 text-base text-zinc-400 space-y-6 leading-relaxed font-sans">
                           <div className="grid md:grid-cols-2 gap-6">
                             <div className="space-y-2">
                               <h4 className="text-xs font-mono uppercase tracking-wider text-white">The Retrofit Hybrid Solution</h4>
@@ -1035,7 +1035,7 @@ export default function Home() {
                       </button>
 
                       {hybridExpanded.economics && (
-                        <div className="p-5 bg-zinc-950/10 border-t border-zinc-900 text-sm text-zinc-400 space-y-4 leading-relaxed font-sans">
+                        <div className="p-5 bg-zinc-950/10 border-t border-zinc-900 text-base text-zinc-400 space-y-4 leading-relaxed font-sans">
                           <div className="grid md:grid-cols-2 gap-6">
                             <div className="space-y-2">
                               <h4 className="text-xs font-mono uppercase tracking-wider text-white">The Regulatory Tax Trap</h4>
@@ -1067,7 +1067,7 @@ export default function Home() {
                       </button>
 
                       {hybridExpanded.competition && (
-                        <div className="p-5 bg-zinc-950/10 border-t border-zinc-900 text-sm text-zinc-400 space-y-4 leading-relaxed font-sans">
+                        <div className="p-5 bg-zinc-950/10 border-t border-zinc-900 text-base text-zinc-400 space-y-4 leading-relaxed font-sans">
                           <div className="grid md:grid-cols-2 gap-6">
                             <div className="space-y-2">
                               <h4 className="text-xs font-mono uppercase tracking-wider text-white">The Fuel Savings Equation</h4>
@@ -1104,7 +1104,7 @@ export default function Home() {
                       </button>
 
                       {hybridExpanded.heuristics && (
-                        <div className="p-5 bg-zinc-950/10 border-t border-zinc-900 text-sm text-zinc-400 space-y-6 leading-relaxed font-sans">
+                        <div className="p-5 bg-zinc-950/10 border-t border-zinc-900 text-base text-zinc-400 space-y-6 leading-relaxed font-sans">
                           <div className="grid md:grid-cols-2 gap-6">
                             <div className="space-y-2">
                               <h4 className="text-xs font-mono uppercase tracking-wider text-white">Team Technical Capabilities</h4>
@@ -1146,7 +1146,7 @@ export default function Home() {
                     {/* Left: Content */}
                     <div className="flex-1 space-y-4">
                       <div className="space-y-1.5">
-                        <span className="text-[9px] font-mono uppercase tracking-wider text-zinc-500">FLAGSHIP ANNUAL REPORT</span>
+                        <span className="text-xs font-mono uppercase tracking-wider text-zinc-500">FLAGSHIP ANNUAL REPORT</span>
                         <h4 className="text-xl font-bold text-white font-sans">
                           State of Student Entrepreneurship in India 2025
                         </h4>

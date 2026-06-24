@@ -92,7 +92,7 @@ export default function SidebarNav() {
             >
               <Icon className="h-4.5 w-4.5 shrink-0" />
               {isActive && (
-                <span className="text-[11px] font-bold tracking-tight font-sans whitespace-nowrap">
+                <span className="text-[11px] font-bold uppercase tracking-wider font-sans whitespace-nowrap">
                   {item.shortLabel}
                 </span>
               )}
